@@ -9,14 +9,14 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=ffmpeg
-PKG_VERSION:=7.1
+PKG_VERSION:=6.0
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/nyanmisaka/ffmpeg-rockchip.git
-PKG_SOURCE_VERSION:=7.1
-PKG_MIRROR_HASH:=703b95d32c72179b7cfb432c6b2ed878e756773a35cf6b29d40a5c9d43df9338
+PKG_SOURCE_URL:=http://git.binforce.lan:8081/binforce/client/box/ffmpeg-rockchip.git
+PKG_SOURCE_VERSION:=6.0
+PKG_MIRROR_HASH:=sources.cdn.openwrt.org
 
 PKG_LICENSE:=LGPL-2.1-or-later GPL-2.0-or-later LGPL-3.0-or-later
 PKG_LICENSE_FILES:=COPYING.GPLv2 COPYING.GPLv3 COPYING.LGPLv2.1 COPYING.LGPLv3

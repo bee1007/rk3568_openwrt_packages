@@ -16,14 +16,14 @@ include $(INCLUDE_DIR)/package.mk
 include $(INCLUDE_DIR)/cmake.mk
 
 define Package/libx265
-  SECTION:=libs
-  CATEGORY:=Libraries
-  TITLE:=H.265/HEVC video encoding library
-  DEPENDS:=+libstdcpp
+	SECTION:=libs
+	CATEGORY:=Libraries
+	TITLE:=H.265/HEVC video encoding library
+ 	DEPENDS:=+libstdcpp
 endef
 
 define Package/libx265/description
-  x265 is a free software library for encoding video streams into the H.265/HEVC format.
+ 	x265 is a free software library for encoding video streams into the H.265/HEVC format.
 endef
 
 CMAKE_OPTIONS += \
@@ -33,14 +33,14 @@ CMAKE_OPTIONS += \
 CMAKE_SOURCE_DIR:=$(PKG_BUILD_DIR)/source
 
 define Build/Install
-    $(call Build/Install/Default)
+	$(call Build/Install/Default)
 endef
 
 define Build/InstallDev
-        $(INSTALL_DIR) $(1)/usr/include
-        $(CP) $(PKG_INSTALL_DIR)/usr/include/* $(1)/usr/include/
-        $(INSTALL_DIR) $(1)/usr/lib
-        $(CP) $(PKG_INSTALL_DIR)/usr/lib/* $(1)/usr/lib/
+	$(INSTALL_DIR) $(1)/usr/include
+	$(CP) $(PKG_INSTALL_DIR)/usr/include/* $(1)/usr/include/
+	$(INSTALL_DIR) $(1)/usr/lib
+	$(CP) $(PKG_INSTALL_DIR)/usr/lib/* $(1)/usr/lib/
 endef
 
 define Package/libx265/install
