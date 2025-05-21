@@ -4,7 +4,7 @@ PKG_NAME:=rkmpp
 PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_VERSION:=develop
+PKG_SOURCE_VERSION:=faf5ce8065e04be40889b5d1f37e467868ab83c4
 PKG_SOURCE_URL:=http://git.binforce.lan:8081/binforce/client/box/rkmpp.git
 PKG_HASH:=bbe4e90e4d2af1c26e0c7ebf6031311a
 
