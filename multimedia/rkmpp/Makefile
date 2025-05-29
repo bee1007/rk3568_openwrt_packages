@@ -6,7 +6,7 @@ PKG_RELEASE:=1
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_VERSION:=develop
 PKG_SOURCE_URL:=http://git.binforce.lan:8081/binforce/client/box/rkmpp.git
-PKG_HASH:=bbe4e90e4d2af1c26e0c7ebf6031311a
+PKG_MIRROR_HASH:=bbe4e90e4d2af1c26e0c7ebf6031311a
 
 PKG_LICENSE:=GPL-2.0
 PKG_LICENSE_FILES:=COPYING
