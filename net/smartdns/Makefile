@@ -11,7 +11,7 @@ PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=http://git.binforce.lan:8081/binforce/client/box/smartdns.git
-PKG_SOURCE_VERSION:=9ee27e7ba2d9789b7e007410e76c06a957f85e98
+PKG_SOURCE_VERSION:=master
 PKG_MIRROR_HASH:=ef95d1a2798a359a2567c6425d0f6e9236396d05479f214d1cae56516ec2796a
 
 PKG_MAINTAINER:=Nick Peng <pymumu@gmail.com>
