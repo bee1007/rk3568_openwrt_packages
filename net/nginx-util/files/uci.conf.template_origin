@@ -27,19 +27,6 @@ http {
 
 	root /www;
 
+	#UCI_HTTP_CONFIG
 	include conf.d/*.conf;
-}
-
-rtmp {
-	server {
-		listen 1935;
-		chunk_size 4096;
-		application live {
-			live on;
-			meta off;
-			record off;
-			ffmpeg -i rtmp://localhost/live/livestream -map 0:a -vn -c:a copy -f rtp rtp://172.16.0.149:35002 -sdp_file /www/audio.sdp -map 0:v -an -c:v copy -f rtp rtp://172.16.0.149:35000 -sdp_file /www/video.sdp;
-			exec bash -c "sleep 4 && /app/transfer_client";
-		}
-	}
 }
