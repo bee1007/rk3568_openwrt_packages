@@ -5,7 +5,7 @@ PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_VERSION:=master
-PKG_SOURCE_URL:=http://git.binforce.lan:8081/binforce/client/box/x265.git
+PKG_SOURCE_URL:=https://github.com/bee1007/x265.git
 PKG_MIRROR_HASH:=5a7a73d1b38b51880e9ae55da4118d18
 
 PKG_LICENSE:=GPL-2.0

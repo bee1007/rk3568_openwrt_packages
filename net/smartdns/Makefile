@@ -10,7 +10,7 @@ PKG_VERSION:=1.2024.45
 PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=http://git.binforce.lan:8081/binforce/client/box/smartdns.git
+PKG_SOURCE_URL:=https://github.com/bee1007/smartdns.git
 PKG_SOURCE_VERSION:=master
 PKG_MIRROR_HASH:=f32a27081f11020dc76d07099dbe184bd875589a90ccfe88124a7ce094300d76
 

@@ -14,7 +14,7 @@ PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=http://git.binforce.lan:8081/binforce/client/box/ffmpeg-rockchip.git
+PKG_SOURCE_URL:=https://github.com/bee1007/ffmpeg-rockchip.git
 PKG_SOURCE_VERSION:=6.0
 PKG_MIRROR_HASH:=e22cbee95a8f13b8010769aee5484e8e
 
